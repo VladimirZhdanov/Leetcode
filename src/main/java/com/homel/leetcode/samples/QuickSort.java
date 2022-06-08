@@ -3,8 +3,10 @@ package com.homel.leetcode.samples;
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 5, 5, 1, 6, 8};
-        quickSort(arr, 0, 5);
-        System.out.println(arr);
+        quickSort(arr, 0, arr.length - 1);
+        for (Integer val : arr) {
+            System.out.println(val);
+        }
     }
 
     public static void quickSort(int[] array, int low, int high) {
