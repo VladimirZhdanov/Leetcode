@@ -1,8 +1,8 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.strings;
 
 import java.util.LinkedList;
 
-public class ValidParentheses {
+public class ValidParentheses20 {
     public static void main(String[] args) {
         char x = '('; //40
         char y = ')'; //41

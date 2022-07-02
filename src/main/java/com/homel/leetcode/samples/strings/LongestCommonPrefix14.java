@@ -1,8 +1,6 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.strings;
 
-import java.util.Arrays;
-
-public class LongestCommonPrefix {
+public class LongestCommonPrefix14 {
     public static void main(String[] args) {
         longestCommonPrefix(new String[]{"flower","flow","flight"});
     }
