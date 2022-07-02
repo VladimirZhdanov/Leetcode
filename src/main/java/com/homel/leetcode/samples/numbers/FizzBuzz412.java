@@ -1,9 +1,9 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.numbers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FizzBuzz {
+public class FizzBuzz412 {
 
     public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList<>();
@@ -29,7 +29,7 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        fizzBuzz.fizzBuzz(15).forEach(System.out::println);
+        FizzBuzz412 fizzBuzz412 = new FizzBuzz412();
+        fizzBuzz412.fizzBuzz(15).forEach(System.out::println);
     }
 }

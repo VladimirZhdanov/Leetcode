@@ -1,9 +1,9 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.numbers;
 
-public class PalindromeNumber {
+public class PalindromeNumber9 {
 
     public static void main(String[] args) {
-        PalindromeNumber palindromeNumber = new PalindromeNumber();
+        PalindromeNumber9 palindromeNumber = new PalindromeNumber9();
         System.out.println(palindromeNumber.isPalindrome(11212));
     }
 
