@@ -5,7 +5,7 @@ The digits are stored in reverse order, and each of their nodes contains a singl
 Add the two numbers and return the sum as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.*/
 
-public class AddTwoNumbers {
+public class AddTwoNumbers2 {
 
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -37,7 +37,7 @@ public class AddTwoNumbers {
 
 
     public static void main(String[] args) {
-        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+        AddTwoNumbers2 addTwoNumbers = new AddTwoNumbers2();
         ListNode result = addTwoNumbers.addTwoNumbers(new ListNode(9, new ListNode(1)),
                 new ListNode(3, new ListNode(2)));
 
