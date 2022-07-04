@@ -1,4 +1,4 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.strings;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,10 +6,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class GroupAnagrams {
+public class GroupAnagrams49 {
     public static void main(String[] args) {
-        GroupAnagrams groupAnagrams = new GroupAnagrams();
+        GroupAnagrams49 groupAnagrams = new GroupAnagrams49();
         groupAnagrams.groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"});
+
+        String[] array = "".split(" ");
+        Stream.of(array).filter(it -> !it.equals(" ")).collect(Collectors.toList());
     }
 
 
