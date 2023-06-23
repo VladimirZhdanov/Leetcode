@@ -1,4 +1,4 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.sort;
 
 import java.util.Arrays;
 

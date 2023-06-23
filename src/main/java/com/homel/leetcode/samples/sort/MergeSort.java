@@ -1,4 +1,4 @@
-package com.homel.leetcode.samples;
+package com.homel.leetcode.samples.sort;
 
 public class MergeSort {
     public static void mergeSort(int[] nums, int n) {
