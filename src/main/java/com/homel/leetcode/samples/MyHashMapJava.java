@@ -2,13 +2,13 @@ package com.homel.leetcode.samples;
 
 import java.util.Arrays;
 
-public class MyHashMap {
+public class MyHashMapJava {
 
     int maxSize = 100_000;
     int[] map;
 
     /** Initialize your data structure here. */
-    public MyHashMap() {
+    public MyHashMapJava() {
         map = new int[maxSize];
         Arrays.fill(map, -1);
     }
