@@ -1,4 +1,4 @@
-package com.homel.leetcode.samples.strings;
+package com.homel.leetcode.samples.stack;
 
 import java.util.LinkedList;
 
@@ -12,6 +12,7 @@ public class ValidParentheses20 {
          y = ']';//93
 
         System.out.println(isValid("{()}"));
+        System.out.println(isValid("{(})"));
         System.out.println(isValid("]{()}["));
         System.out.println(isValid("}()"));
         System.out.println(isValid("[)(]"));

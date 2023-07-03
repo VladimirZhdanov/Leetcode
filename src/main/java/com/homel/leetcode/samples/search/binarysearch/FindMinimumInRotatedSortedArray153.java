@@ -1,4 +1,4 @@
-package com.homel.leetcode.samples.binarysearch;
+package com.homel.leetcode.samples.search.binarysearch;
 
 public class FindMinimumInRotatedSortedArray153 {
 
