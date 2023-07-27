@@ -4,7 +4,7 @@ public class PalindromeNumber9 {
 
     public static void main(String[] args) {
         PalindromeNumber9 palindromeNumber = new PalindromeNumber9();
-        System.out.println(palindromeNumber.isPalindrome(11212));
+        System.out.println(palindromeNumber.isPalindrome(121));
     }
 
     public boolean isPalindrome(int x) {
@@ -38,5 +38,25 @@ public class PalindromeNumber9 {
         }
 
         return (int)Long.parseLong(String.copyValueOf(chars)) == x;
+    }
+
+    public boolean isPalindrome3(int x) {
+        if (x < 0) return false;
+
+        String input = "" + x;
+
+        int l = 0;
+        int r = input.length() - 1;
+
+        while (l <= r) {
+            if (input.charAt(l) == input.charAt(r)) {
+                l++;
+                r--;
+            } else {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
